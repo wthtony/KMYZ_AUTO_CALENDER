@@ -16,6 +16,7 @@ import java.util.ArrayList;
 public class Teacher{
     //int day;
     String name;
+    String CourseName;
     int TimeSpan;
     int StartTime;
     int EndTime;
