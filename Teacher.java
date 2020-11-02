@@ -1,3 +1,4 @@
+package calender
 import java.util.ArrayList;
 
 /*public class Time{
@@ -12,14 +13,14 @@ import java.util.ArrayList;
     }
 }*/
 
-public class TeacherOneDay{
-    int day;
+public class Teacher{
+    //int day;
     String name;
     int TimeSpan;
     int StartTime;
     int EndTime;
-    TeacherOneDay(int day, String name, Time StartTime, Time EndTime){
-        this.day = day;
+    TeacherOneDay(/*int day,*/ String name, Time StartTime, Time EndTime){
+        //this.day = day;
         this.name = name;
         this.StartTime = StartTime.TimeinMinutes();
         this.EndTime = EndTime.TimeinMinutes();
@@ -27,7 +28,7 @@ public class TeacherOneDay{
     }
 }
 
-public class Teacher{
+/*public class Teacher{
     //ArrayList???
     ArrayList teacher;
     Teacher(){
@@ -42,5 +43,5 @@ public class Teacher{
     public void remove(TeacherOneDay x){
         teacher.remove(x);
     }
-}
+}*/
 
