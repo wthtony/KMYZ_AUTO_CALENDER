@@ -11,7 +11,7 @@ public class Class{
     this.EndTime = EndTime.TimeinMinutes();
     this.TimeSpan = this.StartTime - this.EndTime;
   }
-  public int GradetoRow(){
+  public int GradetoCol(){
     if(this.grade <= 102){
       return this.grade - 101
     }
@@ -27,7 +27,7 @@ public class Class{
 public class Schedule{
   Class[][] schedule;
   Schedule(){
-    this.schedule = Class[6][10];
+    this.schedule = Class[10][6];
   }
   public void add(Class x){
     Time start = new Time(7,55);
@@ -37,7 +37,7 @@ public class Schedule{
       class = class - 50;
       i++;
     }
-    schedule[i][x.GradetoRow] = x;
+    schedule[i][x.GradetoCol] = x;
     }
   }
 }
