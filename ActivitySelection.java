@@ -10,6 +10,10 @@ class ActivitySelection
     //  n   -->  Total number of activities 
     //  s[] -->  An array that contains start time of all activities 
     //  f[] -->  An array that contains finish time of all activities 
+    
+    public ArrayList<> GetFinishingTimeList(FinishingTimeList){}
+  
+      
     public static void printMaxActivities(int s[], int f[], int n) 
     { 
     int i, j; 
