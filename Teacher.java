@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Time{
+/*public class Time{
     int hours;
     int minutes;
     Time(int hours, int minutes){
@@ -10,7 +10,7 @@ public class Time{
     public int TimeinMinutes(){
         return this.hours*60 + this.minutes;
     }
-}
+}*/
 
 public class TeacherOneDay{
     int day;
