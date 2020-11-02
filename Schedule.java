@@ -34,7 +34,7 @@ public class Schedule{
     int classtime = x.StartTime;
     int i = 0;
     while(classtime != start.TimeinMinutes()){
-      class =- 50;
+      class = class - 50;
       i++;
     }
     schedule[i][x.GradetoRow] = x;
